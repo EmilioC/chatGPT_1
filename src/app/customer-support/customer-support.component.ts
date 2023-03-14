@@ -15,7 +15,7 @@ response!: ResponseModel | undefined;
     gptModels = gptModels
     promptText = '';
     arrayFrasesChiquito = frasesChiquito;
-    promptTextModificado = 'responde gracioso, añadiendo durante tu respuesta varias convinaciones de la siguiente frase:'
+    promptTextModificado = 'responde gracioso, añadiendo durante tu respuesta varias conbinaciones de la siguiente frase:'
     showSpinner = false;
 
   constructor() { }

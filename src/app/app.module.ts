@@ -9,6 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { GifsModule } from './gifs/gifs.module';
 import { CustomerSupportComponent } from './customer-support/customer-support.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MapsModule } from './maps/maps.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     SharedModule,
     GifsModule,
-    CommonModule
+    CommonModule, 
+    MapsModule
   ],
   exports:[
     CommonModule
